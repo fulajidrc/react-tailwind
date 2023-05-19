@@ -8,7 +8,7 @@
 
 
 ## Importing Components
-   import { RTButton } from "react-tailwindcss-ts";
+    import { RTButton } from "react-tailwindcss-ts";
 
 # Components 
 ## Buttons
