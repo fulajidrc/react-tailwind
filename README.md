@@ -1,4 +1,4 @@
-# react-tailwindcss-ts (React Tailwindcss Typescript)
+# React Tailwindcss Components Typescript
 
 ## Introduction
     Learn how to include easily React tailwindcss in your project.
@@ -11,7 +11,7 @@
     import { RTButton } from "react-tailwindcss-ts";
 
 # Components 
-## Buttons
+##  Button Example
      
         import { RTButton } from "react-tailwindcss-ts";
 
@@ -35,3 +35,31 @@
 | buttonType                                  | sm | md | lg            | md                                  |  Size of button, Example: sm,md,lg                                                                                |
 | onClick                                     | function                |                                     | Callback fired when a button is pressed                                                                           |
 | processing                                  | boolean                 | false                               | For Proccess is running or not                                                                                    |
+
+
+## Input Example
+     
+        import { RTInput } from "react-tailwindcss-ts";
+
+        function TypesExample() {
+            return (
+                <>
+                    <RTInput name="input" label="Password" type={'text'}  placeholder="Password"/>
+                </>
+            );
+        }
+
+        export default TypesExample;
+
+## Input API
+
+| Name                                        | Type                                                | Default   | Description                             |
+| ------------------------------------------- |:---------------------------------------------------:| :--------:| :---------------------------------------|
+| className                                   | string                                              |           |  For Extra Tailwindcss class            |
+| label                                       | string                                              |           |  Lable of Input                         |
+| type                                        | text | password | email | date | datetime | number  | text      |  Type of input                          |
+| placeholder                                 | string                                              |           |  Placeholder of Input                   |
+| onChange                                    | function                                            |           |  Callback fired when a input is changed |
+| id                                          | string                                              |           |  Id of Input                            |
+| formik                                      | boolean                                             | false     |  it's use for `Formik` validation field |
+| name<sup style='color:red;'>*Required</sup> | string                                              |           |  Name of input field                    |
