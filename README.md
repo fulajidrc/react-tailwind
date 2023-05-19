@@ -4,11 +4,10 @@
     Learn how to include easily React tailwindcss in your project.
 
 ## Installation
-npm install react-tailwindcss-ts
+    npm install react-tailwindcss-ts
 
 
 ## Importing Components
-
    import { RTButton } from "react-tailwindcss-ts";
 
 # Components 
