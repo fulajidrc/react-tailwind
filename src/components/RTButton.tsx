@@ -5,7 +5,7 @@ type Props = {
   className?: string
   type?: 'button' | 'submit' | 'reset'
   name: string
-  buttonType?: 'sm' | 'md' | 'lg' 
+  buttonType?: 'sm' | 'md' | 'lg'
   onClick?: React.MouseEventHandler<HTMLButtonElement>
   processing?: boolean
 }

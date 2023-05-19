@@ -5,11 +5,10 @@ type Props = {
   label?: string
   type?: 'text' | 'password' | 'email' | 'date' | 'datetime' | 'number'
   placeholder?: string
-  onChange?:React.ChangeEventHandler<HTMLInputElement>,
+  onChange?: React.ChangeEventHandler<HTMLInputElement>
   id?: string
   formik?: boolean
-  name: string,
-  
+  name: string
 }
 
 const RTInput = (props: Props) => {
@@ -34,7 +33,7 @@ const RTInput = (props: Props) => {
                 ? props.label?.replace(/\s/g, '')
                 : Math.random().toString(36).substring(2, 7)
             }
-            onChange={props.onChange ? props.onChange : void(0)}
+            onChange={props.onChange ? props.onChange : void 0}
             type={props.type ? props.type : 'text'}
             placeholder={props.placeholder ? props.placeholder : ''}
             name={props.name}
@@ -52,7 +51,7 @@ const RTInput = (props: Props) => {
                 ? props.label?.replace(/\s/g, '')
                 : Math.random().toString(36).substring(2, 7)
             }
-            onChange={props.onChange ? props.onChange : void(0)}
+            onChange={props.onChange ? props.onChange : void 0}
             type={props.type ? props.type : 'text'}
             placeholder={props.placeholder ? props.placeholder : ''}
             className={`border w-full h-5 px-3 py-5 mt-2 hover:outline-none focus:outline-none focus:ring-indigo-500 focus:ring-1 rounded-md ${props.className}`}
