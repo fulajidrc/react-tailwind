@@ -28,10 +28,10 @@
 ## Button API
 
 | Name                                        | Type                    | Default                           | Description                                          |
-| ------------------------------------------- |:-----------------------:| ---------------------------------:| ----------------------------------------------------:|
+| ------------------------------------------- |:-----------------------:| :--------------------------------:| :----------------------------------------------------|
 | className                                   | string                  | bg-indigo-700 hover:bg-indigo-900 |  Tailwindcss class for button color                  |
 | type                                        | button | submit | reset | button                            |  Type of button,Example: button, submit, reset       |
-| name<sup style="color:red;">*</sup>         | string                  |                                   |  Name of button                                      |
+| name<sup style="color:red;">*Required</sup> | string                  |                                   |  Name of button                                      |
 | buttonType                                  | sm | md | lg            | md                                |  Size of button, Example: sm,md,lg                   |
 | onClick                                     | function                |                                   | Callback fired when a button is pressed              |
 | processing                                  | boolean                 | false                             | For Proccess is running or not                       |
