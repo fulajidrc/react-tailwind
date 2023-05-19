@@ -1,7 +1,8 @@
 {
-  "name": "react-tailwind",
-  "version": "1.0.0",
+  "name": "react-tailwindcss-ts",
+  "version": "0.2.0",
   "description": "",
+  "private": false,
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
@@ -24,15 +25,18 @@
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\"",
     "test": "jest --config jestconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run prettier && npm run lint"
+    "prepare1": "npm run build",
+    "prepublishOnly1": "npm test && npm run prettier && npm run lint"
   },
   "keywords": [
     "react",
     "typescript",
-    "awesome-project"
+    "tailwindcss",
+    "react tailwindcss",
+    "tailwindcss react",
+    "tailwindcss react typescript"
   ],
-  "author": "Fulaji Thakor(fvthakor)",
+  "author": "Fulaji Thakor <fvthakordeveloper@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@testing-library/react": "^14.0.0",
@@ -45,6 +49,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "formik": "^2.2.9",
     "jest": "^29.5.0",
     "jest-canvas-mock": "^2.5.1",
     "jest-environment-jsdom": "^29.5.0",

@@ -3,10 +3,12 @@ import { render } from '@testing-library/react'
 
 import 'jest-canvas-mock'
 
-import { MyCounter } from '../src'
+import { JustForTest, RTButton, RTInput } from '../src'
 
 describe('Common render', () => {
   it('renders without crashing', () => {
-    render(<MyCounter />)
+    render(<JustForTest />)
+    render(<RTInput name={'test'} />)
+    render(<RTButton type={'button'} name={'Test'} />)
   })
 })
