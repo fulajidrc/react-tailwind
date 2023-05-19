@@ -27,11 +27,11 @@
     
 ## Button API
 
-| Name                                        | Type                    | Default                             | Description                                                                     |
-| ------------------------------------------- |:-----------------------:| :----------------------------------:| :-------------------------------------------------------------------------------|
-| className                                   | string                  | `bg-indigo-700 hover:bg-indigo-900` |  Tailwindcss class for button color, <br />Example:`bg-red-700 hover:bg-red-900`|
-| type                                        | button | submit | reset | button                              |  Type of button,Example: button, submit, reset                                  |
-| name<sup style="color:red;">*Required</sup> | string                  |                                     |  Name of button                                                                 |
-| buttonType                                  | sm | md | lg            | md                                  |  Size of button, Example: sm,md,lg                                              |
-| onClick                                     | function                |                                     | Callback fired when a button is pressed                                         |
-| processing                                  | boolean                 | false                               | For Proccess is running or not                                                  |
+| Name                                        | Type                    | Default                             | Description                                                                                                       |
+| ------------------------------------------- |:-----------------------:| :----------------------------------:| :-----------------------------------------------------------------------------------------------------------------|
+| className                                   | string                  | `bg-indigo-700 hover:bg-indigo-900` |  Tailwindcss class for button color, <br />Example:`bg-red-700 hover:bg-red-900`,`bg-green-700 hover:bg-green-900`|
+| type                                        | button | submit | reset | button                              |  Type of button,Example: button, submit, reset                                                                    |
+| name<sup style="color:red;">*Required</sup> | string                  |                                     |  Name of button                                                                                                   |
+| buttonType                                  | sm | md | lg            | md                                  |  Size of button, Example: sm,md,lg                                                                                |
+| onClick                                     | function                |                                     | Callback fired when a button is pressed                                                                           |
+| processing                                  | boolean                 | false                               | For Proccess is running or not                                                                                    |
