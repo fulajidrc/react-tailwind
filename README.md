@@ -4,16 +4,16 @@
     Learn how to include easily React tailwindcss in your project.
 
 ## Installation
-<code>npm install react-tailwindcss-ts</code>
+npm install react-tailwindcss-ts
 
 
 ## Importing Components
 
-    <code>import { RTButton } from "react-tailwindcss-ts";</code>
+   import { RTButton } from "react-tailwindcss-ts";
 
 # Components 
 ## Buttons
-    <code> 
+     
         import { RTButton } from "react-tailwindcss-ts";
 
         function TypesExample() {
@@ -25,7 +25,7 @@
         }
 
         export default TypesExample;
-    </code>
+    
 ## Button API
 
 | Name          | Type          | Default                           | Description                                          |
