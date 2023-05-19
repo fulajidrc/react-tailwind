@@ -63,3 +63,6 @@
 | id                                          | string                                              |           |  Id of Input                            |
 | formik                                      | boolean                                             | false     |  it's use for `Formik` validation field |
 | name<sup style='color:red;'>*Required</sup> | string                                              |           |  Name of input field                    |
+
+
+# Other Components Comming Soon
