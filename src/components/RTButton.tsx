@@ -3,9 +3,9 @@ import React from 'react'
 
 type Props = {
   className?: string
-  type: 'button' | 'submit' | 'reset' | undefined
+  type?: 'button' | 'submit' | 'reset'
   name: string
-  buttonType?: 'sm' | 'md' | 'lg' | undefined
+  buttonType?: 'sm' | 'md' | 'lg' 
   onClick?: React.MouseEventHandler<HTMLButtonElement>
   processing?: boolean
 }
@@ -14,7 +14,7 @@ const RTButton = (props: Props) => {
   return (
     <>
       <button
-        type={props.type}
+        type={props.type ? props.type : 'button'}
         className={`text-white rounded-md ${props.className ? props.className : 'bg-indigo-700 hover:bg-indigo-900'} 
             ${
               props.buttonType === 'sm'
