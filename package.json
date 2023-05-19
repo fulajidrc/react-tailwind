@@ -1,5 +1,5 @@
 {
-  "name": "demo-react",
+  "name": "react-tailwind",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/cjs/index.js",
@@ -7,7 +7,7 @@
   "types": "./dist/esm/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fulajidrc/react-demo-package.git"
+    "url": "git+https://github.com/fulajidrc/react-tailwind.git"
   },
   "peerDependencies": {
     "react": ">=18"
@@ -51,6 +51,7 @@
     "prettier": "^2.8.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.2",
     "ts-jest": "^29.1.0",
     "typescript": "^5.0.4"
   }

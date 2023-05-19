@@ -1,3 +1,4 @@
-import MyCounter from './components/App'
+import JustForTest from './components/App'
 
-export { MyCounter }
+export { JustForTest }
+git remote set-url origin new.git.url/here
