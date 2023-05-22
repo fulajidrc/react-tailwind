@@ -5,6 +5,11 @@
 
 ## Installation
     npm install react-tailwindcss-ts
+## Import style
+import style in main file
+ 
+    @import 'react-tailwindcss-ts/dist/index.css';
+
 
 
 ## Importing Components
